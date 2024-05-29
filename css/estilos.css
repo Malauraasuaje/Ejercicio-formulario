@@ -1,0 +1,61 @@
+/* María Laura Asuaje  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html{
+    font-family: "Montserrat", sans-serif;
+}
+
+h2{color: rgb(215, 134, 231);
+    text-align: center; 
+}
+
+/* Estilos para el formulario */
+form{
+    width: 500px;
+    background: linear-gradient(#fffffff5, white) padding-box,
+                linear-gradient(145deg, transparent 25%,#e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 36px 28px;
+    background-color: transparent;
+    gap: 40px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-left: 35%;
+    margin-top: 5rem;
+}
+/* Estilo para los botones */
+.boton{
+    margin-top: 15px;
+    color: #e81cff;
+}
+.boton2{
+    margin-top: 15px;
+    color: #40c9ff;
+}
+
+/* Estilos para los datos */
+#nombre{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+#apellidos{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+#direccion{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+#email{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+#contraseña{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}

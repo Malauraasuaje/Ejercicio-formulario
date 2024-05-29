@@ -1,0 +1,41 @@
+<!-- Maria laura Asuaje -->
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="María Laura Asuaje">
+    <meta name="copyright" content="María Laura Asuaje">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Titulo del proyecto -->
+    <title>Formulario</title>
+    <!-- Hoja de estilo -->
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <h2>Formulario de registro 01</h2>
+    <!-- Etiqueta form para indicar al navegador que es un formulario -->
+    <form action="" method="post">
+        <!-- campo nombre -->
+    <div>
+        <label for="nombre">Nombre:</label> <br>
+        <input type="text" id="nombre" required autofocus minlength="2" maxlength="30" size="30"><br>
+        <label for="apellidos">Apellidos</label> <br>
+        <input type="text" id="apellidos" required minlength="2" maxlength="50" size="30"><br>
+        <label for="direccion">Dirección</label> <br>
+        <input type="text" id="direccion" required size="50" maxlength="100" placeholder="Escriba su dirección"><br>
+        <!-- campos email -->
+        <label for="email">Email</label> <br>
+        <input type="email" name="email" id="email" required size="30"><br>
+        <!-- campo de contraseña -->
+        <label for="password">Contraseña</label> <br>
+        <input type="password" name="password" id="password" required minlength="6" size="30"><br>
+        <!-- Botones -->
+        <input class="boton" type="submit" value="Enviar" id="enviar">
+        <input class="boton2" type="reset" value="Borrar" id="borrar">
+    </form> 
+</div>
+</body>
+</html>
