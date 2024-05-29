@@ -8,7 +8,6 @@ html{
 h2{color: rgb(215, 134, 231);
     text-align: center; 
 }
-
 /* Estilos para el formulario */
 form{
     width: 500px;
@@ -32,7 +31,6 @@ form{
     margin-top: 15px;
     color: #40c9ff;
 }
-
 /* Estilos para los datos */
 #nombre{
     display: flex;
